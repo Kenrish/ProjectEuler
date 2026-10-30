@@ -3,12 +3,12 @@
 
 def main():
     def prime(num):
-        div = list()
+        Div = list()
         Prime = list()
         for i in range(2,num//2+1):
             if num%i==0:
-                div.append(i)
-        for i in div:
+                Div.append(i)
+        for i in Div:
             is_prime = True
             for j in Prime:
                 if i%j==0:
