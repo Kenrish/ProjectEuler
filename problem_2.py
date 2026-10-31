@@ -9,10 +9,11 @@ def main():
         t2 = 1
         for i in range(n):
             t1, t2 =t2, t1 + t2
-            fib.append(t2)
+            if t2%2==0:
+                fib.append(t2)
         return fib
     fib = []
-    print('Enter 23 for your desired output.')
+    print('Enter 32 for your desired output.')
     fibo_print = fibo(int(input('Enter a number: ')))
     Sum = sum(fib)
     print(Sum)

@@ -12,7 +12,8 @@ def main():
     
     num = int(input('Enter the last number to check: '))
     is_multiples = is_multiple(num)
-    print(*is_multiples)
+    print(f"The answer is: {sum(is_multiples)}")
+
 
 if __name__ == "__main__":
     main()
